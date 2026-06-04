@@ -18,7 +18,7 @@ This skill teaches your AI coding agent (Kimi, Claude Code, Cursor, Windsurf, et
 
 ```bash
 cd ~/.agents/skills  # or wherever your agent loads skills from
-git clone https://github.com/YOUR_USERNAME/stagehand-browser-automation.git
+git clone https://github.com/stark-sim/stagehand-browser-automation.git
 ```
 
 Restart your agent session. The skill will auto-load on browser-related tasks.
@@ -34,7 +34,7 @@ cp stagehand-browser-automation.skill ~/.agents/skills/
 ### Option 3: Package from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stagehand-browser-automation.git
+git clone https://github.com/stark-sim/stagehand-browser-automation.git
 cd stagehand-browser-automation
 
 # If you have the skill-creator toolkit:
