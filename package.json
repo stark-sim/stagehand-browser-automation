@@ -1,0 +1,37 @@
+{
+  "name": "stagehand-browser-automation-skill",
+  "version": "1.0.0",
+  "description": "AI agent skill for Stagehand browser automation. Install with npx to drop into your skills directory.",
+  "bin": {
+    "stagehand-browser-automation-skill": "./bin/install.js",
+    "install-stagehand-skill": "./bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    ".gitignore",
+    "bin/"
+  ],
+  "scripts": {
+    "install:skill": "node bin/install.js"
+  },
+  "keywords": [
+    "stagehand",
+    "browser-automation",
+    "ai-agent",
+    "skill",
+    "playwright",
+    "web-scraping"
+  ],
+  "author": "stark-sim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stark-sim/stagehand-browser-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stark-sim/stagehand-browser-automation/issues"
+  },
+  "homepage": "https://github.com/stark-sim/stagehand-browser-automation#readme"
+}

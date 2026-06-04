@@ -14,7 +14,15 @@ This skill teaches your AI coding agent (Kimi, Claude Code, Cursor, Windsurf, et
 
 ## Installation
 
-### Option 1: Copy to skills directory (fastest)
+### Option 1: npx (fastest, one-liner)
+
+```bash
+npx stagehand-browser-automation-skill
+```
+
+This copies the skill files directly into `~/.agents/skills/`. Restart your agent session.
+
+### Option 2: Git clone
 
 ```bash
 cd ~/.agents/skills  # or wherever your agent loads skills from
@@ -23,7 +31,7 @@ git clone https://github.com/stark-sim/stagehand-browser-automation.git
 
 Restart your agent session. The skill will auto-load on browser-related tasks.
 
-### Option 2: Install from `.skill` file
+### Option 3: Install from `.skill` file
 
 Download the latest `.skill` release and place it in your agent's skills directory:
 
@@ -31,7 +39,7 @@ Download the latest `.skill` release and place it in your agent's skills directo
 cp stagehand-browser-automation.skill ~/.agents/skills/
 ```
 
-### Option 3: Package from source
+### Option 4: Package from source
 
 ```bash
 git clone https://github.com/stark-sim/stagehand-browser-automation.git
