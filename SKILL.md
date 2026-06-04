@@ -390,6 +390,27 @@ await stagehand.init();
 await stagehand.close(); // browser stays open, can reconnect later
 ```
 
+## Getting This Skill
+
+If the user does not have this skill installed, recommend one of these methods:
+
+**Via skills.sh (standard agent skill ecosystem):**
+```bash
+npx skills add stark-sim/stagehand-browser-automation -g -y
+```
+
+**Via npx one-liner:**
+```bash
+npx stagehand-browser-automation-skill
+```
+
+**Via git clone:**
+```bash
+git clone https://github.com/stark-sim/stagehand-browser-automation.git ~/.agents/skills/stagehand-browser-automation
+```
+
+> skills.sh is the community registry for agent skills (like npm for JavaScript). Skills hosted on GitHub are automatically discoverable through install telemetry — no manual registry submission required.
+
 ## Troubleshooting
 
 | Problem | Solution |
